@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  background-color: #70c1b3;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.login {
+  margin: auto;
+  text-align: center;
+}
+
+.login input {
+  margin: 0.5em;
+  width: 250px;
+  border-radius: 25px;
+  padding: 0.5em;
+}
+
+.header-logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background-color: yellow;
+  margin: 2em;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-family: 'Montserrat', regular;
+}

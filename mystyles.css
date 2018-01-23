@@ -1,0 +1,85 @@
+h1 {
+  text-align: center;
+  font-family: courier;
+  font-size: 50px;
+  margin: 0.8em;
+}
+
+h2 {
+  margin: 0.8em;
+  font-family: helvetica;
+}
+
+p {
+  margin-left: 3em;
+  font-family: arial;
+  margin-right: 15%;
+  text-align: justify;
+}
+
+.navbar {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.navbar a {
+  font-size: 200%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin: 5%;
+  padding: 0% 3%;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+img {
+  float: right;
+  margin-right: 10em;
+}
+
+.workExperience {
+  margin-left: 1em;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.school {
+  margin-left: 1em;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.border {
+  border: 5px dotted orange;
+  margin: 10em;
+  padding: 2em;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 80%; background-color: #4CAF50;} /* Green */
+.css {width: 60%; background-color: #2196F3;} /* Blue */
+.js {width: 25%; background-color: #f44336;} /* Red */
+.php {width: 80%; background-color: #808080;} /* Dark Grey */
